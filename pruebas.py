@@ -5,7 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 _ = load_dotenv(find_dotenv())
 
 #openai.api_key  = os.getenv('OPENAI_API_KEY')
-openai.organization = "org-P7WUBT2guyvqr8ei6HboDgsv"
+openai.organization = ""
 openai.api_key  = ""
 
 def get_completion(prompt, model="gpt-3.5-turbo"):
